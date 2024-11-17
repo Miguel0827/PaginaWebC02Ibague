@@ -533,7 +533,7 @@ tr:hover {
 
 
 /* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     /* Encabezado */
     .header-container,
     .header-container2,
@@ -547,7 +547,7 @@ tr:hover {
         visibility: hidden;
     }
 
-    .custom-footer{
+    .custom-footer, .Buscar{
         display: none;
     }
     
