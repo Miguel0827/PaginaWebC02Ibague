@@ -551,6 +551,16 @@ tr:hover {
         display: none;
     }
     
+    .event-grid{
+        flex-direction: column;
+        gap: 15px; /* Reduce el espacio en móviles */
+        padding: 50px 10px;
+    }
+
+    .event-grid img{
+        max-width: 350px; /* Imagen más pequeña */
+    }
+
     .logo img {
         max-width: 80px; /* Tamaño más pequeño del logo */
     }
