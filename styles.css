@@ -543,7 +543,14 @@ tr:hover {
         text-align: left;
         gap: 10px; /* Espacio entre los elementos */
     }
+    .header-container3{
+        visibility: hidden;
+    }
 
+    .custom-footer{
+        display: none;
+    }
+    
     .logo img {
         max-width: 80px; /* Tamaño más pequeño del logo */
     }
@@ -553,7 +560,7 @@ tr:hover {
         align-items: flex-start;
         gap: 5px; /* Espaciado entre elementos del menú */
     }
-
+    
     nav ul li {
         margin: 10px 0;
     }
@@ -564,10 +571,10 @@ tr:hover {
     }
 
     /* Barra de información */
-    .info-bar {
+    .info-bar  {
         flex-direction: column;
-        gap: 5px; /* Reduce el espacio en móviles */
-        padding: 15px 10px;
+        gap: 22px; /* Reduce el espacio en móviles */
+        padding: 50px 10px;
     }
 
     /* Hero (banner principal) */
